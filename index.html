@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Grid</title>
+  <style>
+    .wrapper {
+      display: grid;
+      grid-template-columns: 70% 30%;
+      /* grid-column-gap: 1em;
+      grid-row-gap: 1em; */
+
+      grid-gap: 1em;
+    }
+
+    .wrapper > div {
+      background: #eee;
+      padding: 1em;
+    }
+
+    .wrapper > div:nth-child(odd) {
+      background: #ddd;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam animi fugit a ab vel. Veniam ipsam non quaerat debitis sequi omnis eum soluta nulla velit magnam esse quod qui ducimus officia facere, itaque possimus unde sint expedita voluptas dicta voluptatum porro! Velit, optio exercitationem laborum cum, impedit blanditiis repellat dolores ducimus necessitatibus nisi voluptatum eveniet ratione hic sed. Illo laudantium explicabo eius vel dolorem error eligendi architecto, impedit voluptatem voluptatibus, libero eveniet eaque soluta asperiores sit adipisci odit possimus laboriosam.
+    </div>
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora voluptatem repellendus vero perspiciatis nisi a ipsum dolor, quisquam ullam? Praesentium aliquid quod laudantium nesciunt nihil odit veniam alias in blanditiis?
+    </div>
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam animi fugit a ab vel. Veniam ipsam non quaerat debitis sequi omnis eum soluta nulla velit magnam esse quod qui ducimus officia facere, itaque possimus unde sint expedita voluptas dicta voluptatum porro! Velit, optio exercitationem laborum cum, impedit blanditiis repellat dolores ducimus necessitatibus nisi voluptatum eveniet ratione hic sed. Illo laudantium explicabo eius vel dolorem error eligendi architecto, impedit voluptatem voluptatibus, libero eveniet eaque soluta asperiores sit adipisci odit possimus laboriosam.
+    </div>
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora voluptatem repellendus vero perspiciatis nisi a ipsum dolor, quisquam ullam? Praesentium aliquid quod laudantium nesciunt nihil odit veniam alias in blanditiis?
+    </div>
+    
+  </div>
+</body>
+</html>
